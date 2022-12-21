@@ -19,7 +19,7 @@ INSERT INTO supplier (name, address) VALUES
 ('Magna International Inc.', 'Canada'),
 ('Aisin Corp.', 'Japan'),
 ('Continental', 'German'),
-('Hyundai Mobis', 'South Korea'),
+('Booker Transmission', 'Ireland'),
 ('Faurecia', 'France'),
 ('Lear Corp.', 'United States'),
 ('Valeo', 'France');
@@ -179,7 +179,7 @@ INSERT INTO component (name, created_at, supplier_id, car_id) VALUES
 ('radiator', '2021-03-25', 5, '2T1KU4EE8BC081105'),
 ('wheel', '2021-06-25', 7, '2T1KU4EE8BC081105'),
 ('conveyer belt', '2021-03-10', 8, '2T1KU4EE8BC081105'),
-('battery', '2021-04-28', 7, 'YV1952AS1D1204563'),
+('battery', '2021-04-28', 6, 'YV1952AS1D1204563'),
 ('radiator', '2021-07-05', 1, 'YV1952AS1D1204563'),
 ('wheel', '2021-03-16', 7, 'YV1952AS1D1204563'),
 ('conveyer belt', '2021-05-15', 4, 'YV1952AS1D1204563'),
@@ -196,7 +196,7 @@ INSERT INTO component (name, created_at, supplier_id, car_id) VALUES
 ('wheel', '2021-11-03', 7, 'WBA4A5C57FD572782'),
 ('conveyer belt', '2021-11-11', 3, 'WBA4A5C57FD572782'),
 ('battery', '2021-12-07', 9, 'YV1672MK5A2557337'),
-('radiator', '2021-01-15', 7, 'YV1672MK5A2557337'),
+('radiator', '2021-01-15', 8, 'YV1672MK5A2557337'),
 ('wheel', '2021-03-30', 1, 'YV1672MK5A2557337'),
 ('conveyer belt', '2021-05-01', 5, 'YV1672MK5A2557337'),
 ('battery', '2021-11-27', 2, '19UUA9E5XDA758985'),
@@ -214,7 +214,7 @@ INSERT INTO component (name, created_at, supplier_id, car_id) VALUES
 ('battery', '2021-07-13', 5, '2C3CDXDT9CH013932'),
 ('radiator', '2021-03-18', 3, '2C3CDXDT9CH013932'),
 ('wheel', '2021-12-03', 10, '2C3CDXDT9CH013932'),
-('conveyer belt', '2021-06-12', 6, '2C3CDXDT9CH013932'),
+('conveyer belt', '2021-06-12', 7, '2C3CDXDT9CH013932'),
 ('battery', '2021-07-28', 8, '3D73M4CL8BG987112'),
 ('radiator', '2021-05-31', 1, '3D73M4CL8BG987112'),
 ('wheel', '2021-07-10', 1, '3D73M4CL8BG987112'),
@@ -222,12 +222,11 @@ INSERT INTO component (name, created_at, supplier_id, car_id) VALUES
 ('battery', '2021-07-09', 3, '3VW4A7AT5DM260409'),
 ('radiator', '2021-09-01', 1, '3VW4A7AT5DM260409'),
 ('wheel', '2021-04-08', 9, '3VW4A7AT5DM260409'),
-('conveyer belt', '2021-04-05', 8, '3VW4A7AT5DM260409'),
+('conveyer belt', '2021-04-05', 7, '3VW4A7AT5DM260409'),
 ('battery', '2021-01-26', 2, '1D7RW3BKXAS694746'),
-('radiator', '2021-09-19', 7, '1D7RW3BKXAS694746'),
+('radiator', '2021-09-19', 8, '1D7RW3BKXAS694746'),
 ('wheel', '2021-12-14', 8, '1D7RW3BKXAS694746'),
-('conveyer belt', '2021-06-12', 8, '1D7RW3BKXAS694746');
-
+('conveyer belt', '2021-06-12', 7, '1D7RW3BKXAS694746');
 
 CREATE TABLE IF NOT EXISTS transaction(
     id SERIAL PRIMARY KEY,
