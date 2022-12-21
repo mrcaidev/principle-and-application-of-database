@@ -8,3 +8,6 @@ CREATE DATABASE movie WITH TABLESPACE = caiyuwang_space OWNER caiyuwang;
 
 DROP DATABASE IF EXISTS hotel;
 CREATE DATABASE hotel WITH TABLESPACE = caiyuwang_space OWNER caiyuwang;
+
+DROP DATABASE IF EXISTS car;
+CREATE DATABASE car WITH TABLESPACE = caiyuwang_space OWNER caiyuwang;

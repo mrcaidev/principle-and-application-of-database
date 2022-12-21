@@ -1,0 +1,2 @@
+CREATE SCHEMA caiyuwang AUTHORIZATION caiyuwang;
+SET SEARCH_PATH TO caiyuwang;
