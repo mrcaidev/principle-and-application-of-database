@@ -4,17 +4,10 @@
 
 ## ✨ 项目介绍
 
-1. 电影数据库 - 普通 SQL 查询
-2. 汽车公司数据库 - E-R 图与表设计
-3. 酒店数据库 - 高级特性运用
+1. 普通 SQL 查询（电影数据库）
+2. E-R 图与表设计（汽车公司数据库）
+3. SQL 高级特性（酒店数据库）
 
-## ⚠️ 项目声明
+## 📄 许可证
 
-1. 本项目主要用于个人学习的记录、总结与存档，不保证其正确性、完整性与安全性。
-2. 欢迎适度的借鉴与参考，但不提倡无脑的复制与抄袭。
-3. 允许在公开文章中转载、引用本项目内容，但请使用超链接注明作者与出处。
-4. 仅供学习交流使用，请勿用于商业用途，否则后果自负。
-
-## 📜 许可证
-
-[MIT](LICENSE)
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
